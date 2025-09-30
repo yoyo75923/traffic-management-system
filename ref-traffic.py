@@ -1,13 +1,3 @@
-"""
-dino_solver.py
-
-by Satvik, Aryaman, Harsh, Pravesh, and Bharadwaj
-
-Pretrains the model using moving thresholds
-and then uses deep Q-learning to train.
-"""
-
-
 import os
 import time
 from collections import deque
@@ -451,6 +441,7 @@ if __name__ == "__main__":
         plt.plot(dists)
         plt.title("tRex Distance Traveled")
         plt.savefig(f"./distplots/trex_dist_plot{dt_fmt}.png")
+
 
 
 
